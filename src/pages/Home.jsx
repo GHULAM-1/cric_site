@@ -16,8 +16,9 @@ const Home = () => {
       <Card></Card>
       <Card></Card>
       <Card></Card>
-      <Card></Card>
-      <Card></Card>
+
+
+      
       </div>
       <LastSection></LastSection>
       <Footer></Footer>

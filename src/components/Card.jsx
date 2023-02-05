@@ -9,7 +9,7 @@ const Card = () => {
   return <React.Fragment>
     <div className="card">
         <div className="card-header">
-            <img className="icon" src={red} alt="" />
+            <img className="icon red" src={red} alt="" />
             <span className="header-info">Live | PAK Vs IND 2023</span>
             <img className="icon arrow" src= {arrow} alt="" />
         </div>
@@ -20,12 +20,12 @@ const Card = () => {
           <div className="match">
             <div className="team">
             <img className="team-icon" src={pak} alt="" />
-            <span className="team-score">PAK 112/0* 51.o</span>
+            <span className="team-score">PAK   112/0*   51.0</span>
             </div>
 
             <div className="team">
             <img className="team-icon" src={ind} alt="" />
-            <span className="team-score">IND 112/0* 51.o</span>
+            <span className="team-score">IND   112/0*   51.0</span>
           </div>
 
           </div>
