@@ -1,0 +1,37 @@
+.Footer__container{
+    width: 100%;
+
+    border-top: 2px solid rgba(128, 128, 128, 0.655);
+    padding: 2rem 0px;
+    color: white;
+    display: flex;
+    
+}
+
+.Footer__left{
+    font-size: 1rem;
+    display: flex;
+    gap: 1rem;
+    margin-left: 9vw;
+}
+
+.Footer__right{
+    
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: 9vw;
+    gap: 0.5rem;
+    
+    
+
+}
+.Footer__right__icon{
+    font-size: 3px;
+
+    
+}
+

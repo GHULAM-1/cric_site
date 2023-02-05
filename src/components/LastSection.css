@@ -1,0 +1,41 @@
+.LS__container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    gap: 3rem;
+    font-size: 16px;
+    padding: 2rem 0px;
+}
+
+.LS__1, .LS__2 , .LS__3 , .LS__4{
+display: flex;
+flex-direction: column;
+gap:2rem
+}
+
+
+.LS__1__number{
+font-weight: bolder;
+
+}
+
+.LS__2__heading , .LS__4__heading{
+    color: #ADFF45;
+    font-weight: bolder;
+}
+
+.LS__2__t1 , .LS__2__t2 , .LS__3__t1, .LS__3__t2{
+ opacity: 0.65
+}
+
+.LS__1__logo{
+    height: 70px;
+    
+    
+    
+    background: url(../assets/logo.png) no-repeat center center;
+    background-size: cover;
+}

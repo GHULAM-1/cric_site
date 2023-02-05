@@ -1,3 +1,9 @@
 .Home__container{
-  
+  background-color: black;
+}
+
+.card-wrapper{
+  display: flex;
+  gap:1rem;
+  margin: 2rem;
 }
