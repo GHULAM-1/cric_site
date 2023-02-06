@@ -1,9 +1,8 @@
 .card{
-    width: 25vw;
+    min-width: 29vw;
     background-color: #0E0E0E;
     color: white;
     border-radius: 10px;
-    font-size: 12px;
 }
 
 .card-header{
@@ -13,49 +12,28 @@
     display: flex;
     background-color: #1e1e1e;
     color: white;
-    justify-content: space-around;
-    gap: 5px;
-    padding: 5px 0px;
     align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-
-    
 }
 
 .header-info{
     align-self: center;
-    font-size: 90%;
-    margin-left: 0.5rem;
+    font-size: 0.8rem;
 }
 
 .icon
 {
     padding: 10px;
     height: 30%;
+    padding: 3%;
 }
 
 .arrow{
-    height: 1rem;
-        margin-right: 1rem;
-        margin-left: auto;
+    margin-left: auto;
 }
 
 .card-body{
-        font-size: 12px;
-        display: flex;
-        flex-direction: column;
-        padding-left: 1rem;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-
-}
-
-.team-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
+    padding-left: 1rem;
+    padding-top: 0.5rem;
 }
 
 .match-type
@@ -70,14 +48,7 @@
 }
 
 .match{
-    /* margin-top: 3%; */
-
-    display: flex;
-    flex-direction: column;
-    gap: 0.8rem;
-    margin: 1rem 0;
-    
-
+    padding-bottom: 1.5rem;
 }
 
 .team{
@@ -88,21 +59,11 @@
 
 .team-icon
 {
-    height: 1.5rem;
-    width: 1.5rem;
+    height: 3rem;
+    width: 3rem;
 }
 
 .team-score{
     padding-left: 25px;
-    font-size: 12px;
-    
-}
-
-.arrow{
-    height: 1rem;
-    margin-right: 1rem;
-}
-
-.red{
-    margin-left: 5px;
+    font-size: 1rem;
 }
