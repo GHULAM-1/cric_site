@@ -2,8 +2,17 @@
   background-color: black;
 }
 
-.card-wrapper{
-  display: flex;
-  gap: 2rem;
-  margin: 8rem 0 8rem 2rem;
+.scroll-container
+{
+    width: 90vw;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    display: flex;
+    align-items: center;
+    gap: 1.5vw;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
 }
