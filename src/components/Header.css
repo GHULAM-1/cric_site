@@ -22,3 +22,11 @@
     color: white;
     font-weight: 400;
 }
+
+@media only screen and (max-width: 720px) {
+    .Header__content{
+        width: 80%;
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+    }
+}

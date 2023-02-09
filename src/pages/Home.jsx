@@ -15,7 +15,7 @@ const Home = () => {
     <Nav></Nav>
       <Header></Header>
       {/* <div className="card-wrapper"> */}
-      <ScrollContainer className="scroll-container" nativeMobileScroll="true">
+      <ScrollContainer className="scroll-container">
       <Card></Card>
       <Card></Card>
       <Card></Card>
