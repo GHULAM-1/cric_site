@@ -16,3 +16,15 @@
     margin-right: auto;
     border-radius: 10px;
 }
+
+
+@media only screen and (max-width: 720px) {
+    .scroll-container
+    {
+      flex-direction: column;
+    }
+
+    .scroll-container .card{
+      width: 80vw;
+    }
+}

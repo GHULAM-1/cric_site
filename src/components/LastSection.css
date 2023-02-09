@@ -39,3 +39,29 @@ font-weight: bolder;
     background: url(../assets/logo.png) no-repeat center center;
     background-size: cover;
 }
+
+@media only screen and (max-width: 720px) {
+    .LS__container{
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem 0px;
+        text-align: center;
+    }
+    .LS__1, .LS__2 , .LS__3 , .LS__4{
+        display: flex;
+        flex-direction: column;
+        gap:1rem
+    }
+    .LS__1__logo{
+        height: 50px;
+    }
+    .LS__1__number{
+        font-size: 14px;
+    }
+    .LS__2__heading , .LS__4__heading{
+        font-size: 14px;
+    }
+    .LS__2__t1 , .LS__2__t2 , .LS__3__t1, .LS__3__t2{
+        font-size: 12px;
+    }
+}

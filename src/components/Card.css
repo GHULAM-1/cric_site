@@ -44,7 +44,6 @@
     margin-bottom: 10px;
     display: flex;
     margin: 1rem 0;
-
 }
 
 .match{
@@ -66,4 +65,20 @@
 .team-score{
     padding-left: 25px;
     font-size: 1rem;
+}
+
+@media only screen and (max-width: 720px) {
+    .team-icon
+    {
+        height: 2rem;
+        width: 2rem;
+    }
+
+    .team-score{
+        font-size: 0.9rem;
+    }
+
+    .match-type{
+        font-size: 0.8rem;
+    }
 }
