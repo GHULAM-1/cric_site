@@ -25,8 +25,7 @@ const Home = () => {
       {/* <div className="card-wrapper"> */}
       <ScrollContainer className="scroll-container">
         {cardData?.data.map((i)=> {
-          {console.log(i);
-          }
+          {console.log(i)}
       return  <Card cardData = {i} key = {i.id}></Card>
           
         })}
