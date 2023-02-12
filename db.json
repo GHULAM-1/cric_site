@@ -2,59 +2,47 @@
   "liveScores": [
     {
       "id": 1,
-      "team1": "england",
-      "team2": "australia",
+      "team1": "England",
+      "team2": "Australia",
       "format": "ODI",
-      "score1":"123/1",
-      "score2":"100/9",
+      "score1":"123 / 1",
+      "score2":"100 / 9",
       "over1":"10",
       "over2":"30",
       "year":"2050"
-
-
     },
       {
-      "id": 1,
-      "team1": "south africa",
-      "team2": "australia",
-      "format": "test",
-      "score1":"300/1",
-      "score2":"100/2",
+      "id": 2,
+      "team1": "South Africa",
+      "team2": "Australia",
+      "format": "Test",
+      "score1":"300 / 1",
+      "score2":"100 / 2",
       "over1":"50",
       "over2":"30",
       "year":"2050"
-
-
     },
       {
       "id": 3,
-      "team1": "west indies",
-      "team2": "srilanka",
-      "format": "t20",
-      "score1":"123/7",
-      "score2":"100/9",
+      "team1": "West Indies",
+      "team2": "Sri Lanka",
+      "format": "T20",
+      "score1":"123 / 7",
+      "score2":"100 / 9",
       "over1":"10",
       "over2":"30",
       "year":"2050"
-
-
     },
  {
-      "id": 3,
-      "team1": "west indies",
-      "team2": "srilanka",
-      "format": "t20",
-      "score1":"123/7",
-      "score2":"100/9",
+      "id": 4,
+      "team1": "West Indies",
+      "team2": "Sri Lanka",
+      "format": "ODI",
+      "score1":"123 / 7",
+      "score2":"100 / 9",
       "over1":"10",
       "over2":"30",
       "year":"2050"
-
-
     }
-
-
-
-  
   ]
 }
